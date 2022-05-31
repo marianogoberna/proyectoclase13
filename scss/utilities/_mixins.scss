@@ -1,0 +1,20 @@
+
+
+@mixin around{
+    display: flex;
+    justify-content: space-around;
+}
+
+@mixin center{
+    display: flex;
+    justify-content: center;
+}
+
+
+@mixin box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "jug1 jug2 jug3";
+    justify-items: center;
+
+}

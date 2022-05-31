@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: black; }
+  body header h1 {
+    font-size: 37.5px;
+    font-family: Verdana;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 15px; }
+  body header nav {
+    background-color: white;
+    height: 30px; }
+    body header nav ul {
+      display: flex;
+      justify-content: space-around;
+      font-size: 22.5px;
+      font-family: Verdana; }
+      body header nav ul li {
+        list-style: none;
+        color: black; }
+  body main {
+    margin: 30px;
+    height: 675px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "jug1 jug2 jug3";
+    justify-items: center; }
+    body main img {
+      height: 375px; }
+    body main .jug1 {
+      grid-area: jug1; }
+    body main .jug2 {
+      grid-area: jug2; }
+    body main .jug1 {
+      grid-area: jug3; }
